@@ -21,6 +21,5 @@
     },
     "workspaceMount": "source=${localWorkspaceFolder},target=/work,type=bind",
     "workspaceFolder": "/work",
-    "postCreateCommand": "git config --global --add safe.directory /work",
-    "entr"
+    "postCreateCommand": "git config --global --add safe.directory /work"
 }
