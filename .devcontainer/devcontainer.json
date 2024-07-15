@@ -1,7 +1,7 @@
 // For format details, see https://containers.dev/implementors/json_reference/
 {
     "name": "Golang Developer Container",
-    "image": "golang:1.22-alpine3.20",
+    "build": { "dockerfile": "../Dockerfile" },
     "customizations": {
         "vscode": {
             // Add the IDs of extensions you want installed when the container is created.
